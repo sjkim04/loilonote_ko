@@ -1,0 +1,34 @@
+.btn {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 0.4em;
+	letter-spacing: 1px;
+}
+.btn_free{
+    letter-spacing: 0;
+    color: #ffffff !important;
+	background-color: #E4007F;
+	border-radius: 70px;
+	white-space:pre-wrap !important;
+	}
+.btn_free:hover, .btn_free:active, .btn_free:focus {
+	box-shadow: 0px 0px 30px #F8BFDF;
+	background-color: #A80064;
+}
+#Download,{
+	margin-top:-60px;
+	padding-top:60px;
+}
+
+@media (min-width: 992px) {
+	#Download,{
+	margin-top:-126px;
+	padding-top:126px;
+}
+}
+@media screen and (max-width: 480px) {
+	#Download,{
+	margin-top:0px !important;
+	padding-top:0px !important;
+}
+}
